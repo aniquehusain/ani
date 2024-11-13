@@ -1,0 +1,99 @@
+ /* General Styles */
+        body {
+            background-image: url('bg.webp'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+           color: #FFD700;   Yellow text color 
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Header and Footer Styles */
+        .navbar {
+            background-color: #000000; /* Black background */
+            color: #FFD700; /* Yellow text color */
+        }
+        
+        .navbar-brand img {
+            height: 200px; /* Adjust logo size */
+        }
+
+        .footer {
+			bottom: 0px;
+            background-color: #000000;
+            color: #FFD700;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Table Styles */
+        .movie-table {
+            width: fixed;
+            background-color: rgba(0, 0, 0, 0.8); /* Dark translucent background */
+            color: #FFD700; /* Yellow text color */
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .movie-table th, .movie-table td {
+            padding: 15px;
+            width: 25%; /* Each column takes 25% of the width */
+            
+        }
+        .movie-table th {
+            background-color: #333333;
+            color: #FFD700;
+        }
+		
+/*  addmovie.php css  */
+		.body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+			display: flex;
+			justify-content: center;
+            background-color: #2b2b2b;
+        }
+		.navbar-brand img {
+			margin: 0;
+            height: 100px; /* Adjust logo size */
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+		/* edit.php css */
+		 body {
+            background-color: #121212;
+            color: #FFD700;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #000000;
+            color: #FFD700;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 50px;
+            max-width: 600px;
+        }
+        .form-label {
+            color: #FFD700;
+        }
+        .btn-primary, .btn-secondary {
+            background-color: #FFD700;
+            border-color: #FFD700;
+        }
+        .btn-primary:hover, .btn-secondary:hover {
+            background-color: #FFC107;
+            border-color: #FFC107;
+        }
+		/* details.php css */
+		.body {
+            background-color: #121212;
+            color: #FFD700;
+        }
+        .modal-content {
+            background-color: #000000;
+            color: #FFD700;
+        }
